@@ -1,17 +1,18 @@
 .container{
-	height: 700px;
-	width: 688px;
+	height: 800px;
+	width: 800px;
 	background-color: #FFF9D5;
-	margin: 180px auto auto auto;
+	margin: 120px auto auto auto;
+	border:none;
+	padding: none;
 }
 .box{
-	height: 160px;
-	width: 160px;
+	border:0px;
+	padding: 0px;
+	margin: 0px;
 	background-color: #2F353C;
 	display: inline-block;
-	border-width: 12px 12px 0px 0px;
-	border-style: solid;
-	border-color: #FFF9D5;
+	float: left;
 
 }
 button{

@@ -1,10 +1,13 @@
 $(document).ready(function(){
-	var sides=4;
+	var sides=128;
 	var grid=sides*sides;
+	var dimension=800/sides;
 	for(var i=0;i<grid;i++){
 		$(".container").append("<div class=box></div>");
 	}
 	var $box=$(".box");
+	$box.css('height',dimension);
+	$box.css('width',dimension);
 	$box.mouseenter(function(){
 		$(this).css("background-color","blue")
 	});
