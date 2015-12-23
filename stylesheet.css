@@ -1,12 +1,19 @@
 .container{
 	height: 700px;
-	width: 700px;
+	width: 688px;
 	background-color: #FFF9D5;
-	margin: 40px auto auto auto;
+	margin: 180px auto auto auto;
 }
 .box{
 	height: 160px;
 	width: 160px;
 	background-color: #2F353C;
+	display: inline-block;
+	border-width: 12px 12px 0px 0px;
+	border-style: solid;
+	border-color: #FFF9D5;
+
+}
+button{
 
 }
